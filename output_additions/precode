@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from extensions import functions
+import math
+
+var = {}
+
+#Add code here, which needs to be executed before the main code

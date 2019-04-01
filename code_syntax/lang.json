@@ -1,0 +1,204 @@
+{
+	"default": {
+		"math_operators": "Math operators",
+		"bool_operators": "Boolean operators",
+		"conditionals": "Checks",
+		"variables": "Variables",
+		"functions": "Functions",
+		
+		
+		"input": "input",
+		"output": "output",
+		"code": "code",
+		
+		
+		"negate_name": "Negate",
+		
+		"add_name": "Add",
+		
+		"subtract_name": "Subtract",
+		
+		"multiply_name": "Multiply",
+		
+		"divide_name": "Divide",
+		
+		"power_name": "Power",
+		
+		"pi_name": "Pi",
+		
+		"root_name": "Square root",
+		
+		
+		"true_name": "True",
+		"true": "true",
+		
+		"false_name": "False",
+		"false": "false",
+		
+		"and_name": "And",
+		
+		"or_name": "Or",
+		
+		"not_name": "Not",
+		
+		"equals_check_name": "Equals check (==)",
+		"equals_check_description": "This condition checks if two entered values are equal.<br/>If they are, the condition is <b>true</b>. Otherwise, the condition is <b>false</b>.",
+		"equals_check_return_value_description": "The return value is <b>true</b>, if both values are equal.<br/>If they are not, it is <b>false</b>.",
+		
+		"smaller_check_name": "Smaller check (<)",
+		
+		"smaller_equals_check_name": "Smaller/Equals check (<=)",
+		
+		"bigger_check_name": "Bigger check (>)",
+		
+		"bigger_equals_check_name": "Bigger/Equals check (>=)",
+		
+		"not_equals_check_name": "Not equal (!=)",
+		
+		
+		"if_name": "If",
+		"if_description": "An if statement checks an expression to be <b>true</b> or not.<br/>(For example one number to be smaller than another, or equal, etc.)<br/><br/>If this expression is <b>true</b>, it will execute a block of code once.",
+		"if_param_desc": "The condition.<br/>If it is <b>true</b>, the block of code will be executed.",
+		"if": "if",
+		
+		"if_else_name": "If/else",
+		"if_else_description": "An if/else statement checks an expression to be <b>true</b> or not.<br/>(For example one number to be smaller than another, or equal, etc.)<br/><br/>If this expression is <b>true</b>, it will execute a block of code.<br/>If it is <b>false</b> however, it will instead execute a second, seperate, block of code.",
+		"if_else_param_desc": "The condition.<br/>If it is <b>true</b>, the first block of code will be executed.<br/>If it is <b>false</b>, the second block of code will be executed.",
+		"else": "else",
+		
+		"while_name": "While",
+		"while_description": "A while-loop executes a block of code, as long as it's condition is <b>true</b>.<br/>This condition works like a condition in an if-statement. Opposed to the if-statement however, the code-block will be executed over and over, until the condition is no longer true.",
+		"while_param_desc": "The condition.<br/>As long as this condition is <b>true</b>, the code-block will be executed.",
+		"while_notes": "A while-loop can become what is known as an \"infinite-loop\".<br/>This happens when the condition will always remain <b>true</b>.<br/>This is usually not intended, but can be, if something should simply be executed until canceled.",
+		"while": "while",
+		
+		"do_while_name": "Do while",
+		"do": "do",
+		
+		"do_x_times_name": "Do x times",
+		"times": "times",
+		
+		"do_x_times_var_name": "Do x times, for",
+		"times_for": "times, for",
+		
+		
+		"var_name": "Variable value",
+		"var": "var",
+		
+		"equals_name": "Set variable (=)",
+		
+		"increment_name": "Increment variable (++)",
+		
+		"decrement_name": "Decrement variable (--)",
+		
+		"increase_name": "Increase variable (+=)",
+		
+		"decrease_name": "Decrease variable (-=)",
+		
+		
+		"say_name": "Say",
+		"say": "say",
+		
+		"wait_name": "Wait",
+		"wait": "wait"
+	},
+	
+	"en": {},
+	
+	"de": {
+		"math_operators": "Rechenoperatoren",
+		"bool_operators": "Logische Operatoren",
+		"conditionals": "Tests",
+		"variables": "Variablen",
+		"functions": "Funktionen",
+		
+		
+		"input": "Eingang",
+		"output": "Ausgang",
+		"code": "Code",
+		
+		
+		"negate_name": "Negieren",
+		
+		"add_name": "Addieren",
+		
+		"subtract_name": "Subtrahieren",
+		
+		"multiply_name": "Multiplizieren",
+		
+		"divide_name": "Dividieren",
+		
+		"power_name": "Potenzieren",
+		
+		"pi_name": "Pi",
+		
+		"root_name": "Wurzen",
+		
+		
+		"true_name": "Wahr",
+		"true": "Wahr",
+		
+		"false_name": "Falsch",
+		"false": "Falsch",
+		
+		"and_name": "Und",
+		
+		"or_name": "Oder",
+		
+		"not_name": "Nicht",
+		
+		"equals_check_name": "Ist gleich (==)",
+		"equals_check_description": "Dieser operator überprüft ob zwei werte gleich sind.<br/>Wenn sie es sind, wird <b>Wahr</b> zurückgegeben. Sonst wird <b>Falsch</b> zurückgegeben.",
+		"equals_check_return_value_description": "Der Rückgabewert ist <b>Wahr</b>, wenn sie Eingabewerte gleich sind.<br/>Wenn sie es nicht sind, ist er <b>Falsch</b>.",
+		
+		"smaller_check_name": "Kleiner (<)",
+		
+		"smaller_equals_check_name": "Kleiner/Gleich (<=)",
+		
+		"bigger_check_name": "Größer (>)",
+		
+		"bigger_equals_check_name": "Größer/Gleich (>=)",
+		
+		"not_equals_check_name": "Ungleich (!=)",
+		
+		
+		"if_name": "Wenn",
+		"if": "Wenn",
+		
+		"if_else_name": "Wenn/Sonst",
+		"else": "Sonst",
+		
+		"while_name": "So lange",
+		"while": "So lange",
+		
+		"do_while_name": "Mach/so lange",
+		"do": "Mach",
+		
+		"do_x_times_name": "Mach x mal",
+		"times": "mal",
+		
+		"do_x_times_var_name": "Mach x mal, für",
+		"times_for": "mal, für",
+		
+		
+		"var_name": "Variablenwert",
+		"var": "Var",
+		
+		"equals_name": "Setze Variable (=)",
+		
+		"increment_name": "Zähle hoch (++)",
+		
+		"decrement_name": "Zähle rückwerts (--)",
+		
+		"increase_name": "Erhöhe Variable (+=)",
+		
+		"decrease_name": "Veringere Variable (-=)",
+		
+		
+		"say_name": "Sag",
+		"say": "sag",
+		
+		"wait_name": "Warte",
+		"wait": "warte"
+	}
+}

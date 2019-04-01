@@ -1,0 +1,3 @@
+for i%t% in range(int(%p0%)):
+	var[%p1%] = str(i%t%)
+%c%

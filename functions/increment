@@ -1,0 +1,1 @@
+var[%p0%] = str(float(var[%p0%]) + 1)

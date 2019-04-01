@@ -1,0 +1,26 @@
+[
+	{
+		"name": "@math_operators",
+		"hue": 55
+	},
+	
+	{
+		"name": "@bool_operators",
+		"hue": 240
+	},
+	
+	{
+		"name": "@conditionals",
+		"hue": 300
+	},
+	
+	{
+		"name": "@variables",
+		"hue": 100
+	},
+	
+	{
+		"name": "@functions",
+		"hue": 0
+	}
+]

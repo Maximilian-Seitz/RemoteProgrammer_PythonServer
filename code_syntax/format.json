@@ -1,0 +1,576 @@
+[
+	{
+		"id": "negate",
+		"name": "@negate_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "-"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "add",
+		"name": "@add_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "+"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "subtract",
+		"name": "@subtract_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "-"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "multiply",
+		"name": "@multiply_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "\u22C5"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "divide",
+		"name": "@divide_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "/"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "power",
+		"name": "@power_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "^"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "root",
+		"name": "@root_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "\u221A"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "pi",
+		"name": "@pi_name",
+		"category": 0,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "\uD835\uDF0B"}
+			]
+		]
+	},
+	
+	
+	
+	{
+		"id": "true",
+		"name": "@true_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@true"}
+			]
+		]
+	},
+	
+	{
+		"id": "false",
+		"name": "@false_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@false"}
+			]
+		]
+	},
+	
+	{
+		"id": "and",
+		"name": "@and_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "bool_in"},
+				{"type": "text", "value": "&"},
+				{"type": "code", "value": "bool_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "or",
+		"name": "@or_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "bool_in"},
+				{"type": "text", "value": "|"},
+				{"type": "code", "value": "bool_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "not",
+		"name": "@not_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "!"},
+				{"type": "code", "value": "bool_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "equals_check",
+		"name": "@equals_check_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "=="},
+				{"type": "code", "value": "num_in"}
+			]
+		],
+		
+		"desc": "@equals_check_description",
+		"descReturnValue": "@equals_check_return_value_description"
+	},
+	
+	{
+		"id": "smaller_check",
+		"name": "@smaller_check_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "<"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "smaller_equals_check",
+		"name": "@smaller_equals_check_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "\u2264"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "bigger_check",
+		"name": "@bigger_check_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": ">"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "bigger_equals_check",
+		"name": "@bigger_equals_check_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "\u2265"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "not_equals_check",
+		"name": "@not_equals_check_name",
+		"category": 1,
+		
+		"returns": "bool",
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "!="},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	
+	
+	
+	{
+		"id": "if",
+		"name": "@if_name",
+		"category": 2,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@if"},
+				{"type": "code", "value": "bool_in"}
+			],
+			
+			[]
+		],
+		
+		"desc": "@if_description",
+		
+		"descParams":
+		[
+			{"type": "@input", "desc": "@if_param_desc"}
+		]
+	},
+	
+	{
+		"id": "if_else",
+		"name": "@if_else_name",
+		"category": 2,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@if"},
+				{"type": "code", "value": "bool_in"}
+			],
+			
+			[],
+			
+			[
+				{"type": "text", "value": "@else"}
+			],
+			
+			[]
+		],
+		
+		"desc": "@if_else_description",
+		
+		"descParams":
+		[
+			{"type": "@input", "desc": "@if_else_param_desc"}
+		]
+	},
+	
+	{
+		"id": "while",
+		"name": "@while_name",
+		"category": 2,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@while"},
+				{"type": "code", "value": "bool_in"}
+			],
+			
+			[]
+		],
+		
+		"desc": "@while_description",
+		
+		"descParams":
+		[
+			{"type": "@input", "desc": "@while_param_desc"}
+		],
+		
+		"descNotes": "@while_notes"
+	},
+	
+	{
+		"id": "do_while",
+		"name": "@do_while_name",
+		"category": 2,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@do"}
+			],
+			
+			[],
+			
+			[
+				{"type": "text", "value": "@while"},
+				{"type": "code", "value": "bool_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "do_x_times",
+		"name": "@do_x_times_name",
+		"category": 2,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@do"},
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "@times"}
+			],
+			
+			[]
+		]
+	},
+	
+	{
+		"id": "do_x_times_var",
+		"name": "@do_x_times_var_name",
+		"category": 2,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@do"},
+				{"type": "code", "value": "num_in"},
+				{"type": "text", "value": "@times_for"},
+				{"type": "code", "value": "text_in"}
+			],
+			
+			[]
+		]
+	},
+	
+	
+	
+	{
+		"id": "var",
+		"name": "@var_name",
+		"category": 3,
+		
+		"returns": "num",
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@var"},
+				{"type": "code", "value": "text_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "equals",
+		"name": "@equals_name",
+		"category": 3,
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "text_in"},
+				{"type": "text", "value": "="},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "increment",
+		"name": "@increment_name",
+		"category": 3,
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "text_in"},
+				{"type": "text", "value": "++"}
+			]
+		]
+	},
+	
+	{
+		"id": "decrement",
+		"name": "@decrement_name",
+		"category": 3,
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "text_in"},
+				{"type": "text", "value": "--"}
+			]
+		]
+	},
+	
+	{
+		"id": "increase",
+		"name": "@increase_name",
+		"category": 3,
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "text_in"},
+				{"type": "text", "value": "+="},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "decrease",
+		"name": "@decrease_name",
+		"category": 3,
+		
+		"lines":
+		[
+			[
+				{"type": "code", "value": "text_in"},
+				{"type": "text", "value": "-="},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	},
+	
+	
+	
+	{
+		"id": "say",
+		"name": "@say_name",
+		"category": 4,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@say"},
+				{"type": "code", "value": "text_in"}
+			]
+		]
+	},
+	
+	{
+		"id": "wait",
+		"name": "@wait_name",
+		"category": 4,
+		
+		"lines":
+		[
+			[
+				{"type": "text", "value": "@wait"},
+				{"type": "code", "value": "num_in"}
+			]
+		]
+	}
+]
