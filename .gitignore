@@ -1,0 +1,8 @@
+__pycache__/
+
+user_files/*
+
+user_files_new/*
+
+run_environment/*
+!run_environment/extensions
