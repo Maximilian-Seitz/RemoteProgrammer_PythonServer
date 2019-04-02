@@ -25,8 +25,10 @@ import build as Builder
 app = Flask(__name__)
 
 #Path to the folder, in case this is executed in another environment (for example from autostart)
-project_folder = "./"
+project_folder = os.path.dirname(os.path.realpath(__file__))
 
+
+#Names of folders with the files and resources needed
 received_file_folder = "user_files_new/"
 received_file_storage_folder = "user_files/"
 run_environment_folder = "run_environment/"
@@ -134,16 +136,8 @@ def command():
 	
 	return json.dumps(return_data)
 
-def execute_command():
-	time.sleep(0.5)
-	os.system('cd "' + project_folder + '/rbrt" && sudo python3 "regtex.py"')
-	time.sleep(0.5)
-	os.system('sudo mv "./rbrt/python/move.py" "./rbexec/move.py"')
-	time.sleep(0.5)
-	os.system('cd "./rbexec" && sudo python3 move.py')
-
 if __name__ == '__main__':
-	app.run(host = '192.168.178.103', debug = True)
+	app.run(host = '10.48.223.2', debug = True)
 
 
 
